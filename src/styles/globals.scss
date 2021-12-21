@@ -1,0 +1,41 @@
+:root {
+  // Colors
+  --color-primary: hsl(26, 100%, 55%);
+  --color-secondary: hsl(25, 100%, 94%);
+
+  --color-blue-900: hsl(220, 13%, 13%);
+  --color-blue-300: hsl(219, 9%, 45%);
+  --color-blue-200: hsl(220, 14%, 75%);
+  --color-blue-100: hsl(223, 64%, 98%);
+
+  --color-white: hsl(0, 0%, 100%);
+  --color-black-alpha: hsl(0, 0%, 0%);
+
+  --font-size-base: 16px;
+
+  // Sizes
+  --moile-size: 375px;
+  --desktop-size: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: var(--font-size-base);
+  background-color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p {
+  font-weight: normal;
+}

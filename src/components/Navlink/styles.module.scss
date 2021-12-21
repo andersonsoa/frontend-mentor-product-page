@@ -1,0 +1,24 @@
+.navlink {
+  color: var(--color-blue-300);
+  height: inherit;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlink__active {
+  color: var(--color-black-alpha);
+  font-weight: bold;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: var(--color-primary);
+    left: 0;
+    right: 0;
+    height: 0.3rem;
+    bottom: -3rem;
+  }
+}

@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.counter__button {
+  color: var(--color-primary);
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+  outline: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  line-height: 1;
+  filter: brightness(1);
+
+  transition: filter 0.2s ease;
+
+  &:hover {
+    filter: brightness(1.2);
+  }
+}
+
+.counter__value {
+  display: inline-block;
+  text-align: center;
+  min-width: 4rem;
+  color: var(--color-blue-900);
+  font-size: 1.5rem;
+  font-weight: bold;
+}

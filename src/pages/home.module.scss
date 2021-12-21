@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  max-width: var(--desktop-size);
+
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-inline: 3rem;
+
+  @media (max-width: 720px) {
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-inline: 1rem;
+  }
+}
